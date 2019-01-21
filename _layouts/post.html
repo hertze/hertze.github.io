@@ -9,3 +9,16 @@ layout: default
 		{{ content }}
 	</article>
 </main>
+<nav>
+	
+	  {% if page.previous.url %}
+	    <a class="prev" href="{{page.previous.url}}">&#8592; Previous entry</a>
+	  {% endif %}
+	  {% if page.previous.url and page.next.url %}
+	  	&middot;
+	  {% endif %}
+	  {% if page.next.url %}
+	    <a class="next" href="{{page.next.url}}">Next entry &#8594;</a>
+	  {% endif %}
+	
+</nav>
