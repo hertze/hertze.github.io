@@ -53,7 +53,7 @@ body {
 	font-family: cardea, serif;
 	font-weight: 400;
 	font-style: normal;
-	max-width: 46em;
+	max-width: 40em;
 	margin: 3em auto;
 	color: #333;
 }
@@ -105,7 +105,7 @@ footer {
 	margin: 3.75em auto;
 	font-size: 0.9em;
 	line-height: 1.875em;
-	max-width: 40em;
+	max-width: 36em;
 }
 
 footer p {
