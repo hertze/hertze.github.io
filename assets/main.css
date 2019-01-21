@@ -157,3 +157,7 @@ article p a {
 footer p a {
 	color: #808080;
 }
+
+img {
+	width: 100%;
+}
