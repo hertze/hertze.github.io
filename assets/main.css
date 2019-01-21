@@ -147,8 +147,13 @@ a {
 
 a:hover {
 	background-color: #DEFDF5;
+	color: #333;
 }
 
-article p a, footer p a {
+article p a {
 	border-bottom: 3px solid #85DFC8;
+}
+
+footer p a {
+	color: #808080;
 }
