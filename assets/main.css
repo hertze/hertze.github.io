@@ -151,8 +151,8 @@ a:hover {
 	color: #333;
 }
 
-article p a {
-	border-bottom: 3px solid #85DFC8;
+article p a, article li a {
+	border-bottom: 3px solid #9BDFCC;
 }
 
 footer p a {
@@ -161,4 +161,9 @@ footer p a {
 
 img {
 	width: 100%;
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: square;
 }
