@@ -109,8 +109,9 @@ footer {
 	max-width: 36em;
 }
 
-footer p {
-	margin: 0 2.5em;
+footer p, .comments {
+	margin: 0 3.125em;
+	font-style: italic;
 }
 
 .datestamp {
@@ -118,12 +119,6 @@ footer p {
 	font-family: ff-tisa-sans-web-pro,sans-serif;
 	font-weight: 400;
 	font-style: normal;
-}
-
-.divider p {
-	text-align: center;
-	font-size: 2em;
-	line-height: 0.75em;
 }
 
 
