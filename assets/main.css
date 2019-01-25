@@ -48,6 +48,7 @@ table {
 }
 
 body {
+	background-color: #fff;
 	font-size: 18px;
 	line-height: 1.5;
 	font-family: cardea, serif;
@@ -153,10 +154,13 @@ a {
 a:hover {
 	background-color: #DEFDF5;
 	color: #333;
+	text-shadow: none;
+	box-shadow: none;
 }
 
 article p a, article li a {
-	box-shadow: inset 0 -0.22em 0 0 #9EE1CB;
+	text-shadow: 1px 1px 0 #fff, -1px 1px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff;
+	box-shadow: inset 0 -0.1em 0 0 #fff, inset 0 -0.25em 0 0 #9EE1CB;
 }
 
 footer p a {
