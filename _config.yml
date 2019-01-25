@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://oldways.se"
 twitter_username: hertze
 github_username:  hertze
-paginate: 5
+paginate: 3
 
 # Build settings
 markdown: kramdown
