@@ -109,9 +109,8 @@ footer {
 	max-width: 36em;
 }
 
-footer p, .comments {
+footer p {
 	margin: 0 3.125em;
-	font-style: italic;
 }
 
 .datestamp {
