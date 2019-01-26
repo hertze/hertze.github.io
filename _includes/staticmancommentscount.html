@@ -1,0 +1,15 @@
+{% if site.data.comments[post.slug] %}
+	{% assign comments = site.data.comments[post.slug]  %}
+	
+	
+	{% assign n = '0' %}
+	{% for i in comments %}
+	  
+	    {% assign n = n | plus: 1 %}
+	  
+	{% endfor %}
+	
+		
+		<p class="comment-count">{{ n }} comments</p>
+
+{% endif %}

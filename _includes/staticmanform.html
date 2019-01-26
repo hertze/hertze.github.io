@@ -1,10 +1,10 @@
 <form method="POST" action="https://dev.staticman.net/v3/entry/github/hertze/hertze.github.io/master/comments">
-  <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
-  <!-- e.g. "2016-01-02-this-is-a-post" -->
-  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <label><input name="fields[name]" type="text">Name</label>
-  <label><input name="fields[email]" type="text">Email</label>
-  <label><textarea name="fields[message]"></textarea>Message</label>
-  
-  <button type="submit">Submit comment</button>
+	<h2>Submit a comment</h2>
+	<p>Comments will show up here as soon as I have moderated them.</p>
+	<input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
+	<input name="options[slug]" type="hidden" value="{{ page.slug }}">
+	<input name="fields[name]" type="text" placeholder="Your name">
+	<input name="fields[email]" type="text" placeholder="Your email" style="display: none">
+	<textarea name="fields[message]" placeholder="Your comment"></textarea>
+	<button type="submit">Send it!</button>
 </form>

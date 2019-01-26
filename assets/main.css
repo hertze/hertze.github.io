@@ -73,7 +73,7 @@ header p {
 	text-align: center;
 }
 
-main, nav, footer {
+main, nav {
 	margin: 0 2em;
 }
 
@@ -110,7 +110,7 @@ footer {
 }
 
 footer p {
-	margin: 0 3.125em;
+	margin: 0 2.222em;
 }
 
 .datestamp {
@@ -127,6 +127,12 @@ h1 {
 	line-height: 1.3636em;
 	max-width: 16em;
 	margin: 1.3636em auto 0.6818em auto;
+}
+
+h2 {
+	font-size: 1.6em;
+	line-height: 1.1333em;
+	max-width: 16em;
 }
 
 strong {
@@ -165,5 +171,55 @@ img {
 
 ul {
   list-style-type: disc;
-  list-style-position: square;
+  list-style-position: outside;
+}
+
+#comments {
+	max-width: 28.5em;
+	margin: 3em auto 0 auto;
+}
+
+.comment-count {
+	font-family: ff-tisa-sans-web-pro,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 0.9em;
+}
+
+.comment-list {
+	list-style-type: none;
+}
+
+#comments form {
+	width: 100%;
+	margin: 3em 0;
+}
+
+#comments input {
+	width: 60%;
+	padding: 0.5em;
+	font-size: 0.9em;
+	margin: 0.5em 0;
+	border: 1px solid #ccc;
+}
+#comments textarea {
+	width: 100%;
+	height: 8em;
+	padding: 0.5em;
+	font-size: 0.9em;
+	margin: 0.5em 0;
+	border: 1px solid #ccc;
+}
+
+#comments submit {
+	padding: 0.3em;
+	font-size: 0.9em;
+}
+
+.comment-author {
+	margin: -1.667em 0 1.667em 1.667em;
+	font-family: ff-tisa-sans-web-pro,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 0.9em;
 }

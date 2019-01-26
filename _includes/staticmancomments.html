@@ -1,16 +1,13 @@
-<div class="comments">
-	
-	{{ site.data.comments[post_slug] }}
-	
-	{% if site.data.comments[post_slug] %}
-	
-	{% assign comments = site.data.comments[post_slug] | sort %}
-	
-	{% for comment in comments reversed %}
+{% if site.data.comments[page.slug] %}
+<h2>Comments</h2>
+<ul class="comment-list">
+	{% assign comments = site.data.comments[page.slug] | sort  %}
 		
-		<p>{{ comment.message }} / {{ comment.name }}<p>
+	{% for comment in comments reversed %}
+		{% assign commentData = comment[1] %}
+		
+		<li><p class="comment-message">{{ commentData.message | markdownify }}<p><p class="comment-author">&mdash; {{ commentData.name }}, on {{ commentData.date | date_to_string }}<p></li>
 		
 	{% endfor %}
-	
-	{% endif %}
-</div>
+</ul>
+{% endif %}
