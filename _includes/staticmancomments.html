@@ -1,0 +1,16 @@
+<div class="comments">
+	
+	{{ site.data.comments[post_slug] }}
+	
+	{% if site.data.comments[post_slug] %}
+	
+	{% assign comments = site.data.comments[post_slug] | sort %}
+	
+	{% for comment in comments reversed %}
+		
+		<p>{{ comment.message }} / {{ comment.name }}<p>
+		
+	{% endfor %}
+	
+	{% endif %}
+</div>
