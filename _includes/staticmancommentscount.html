@@ -9,10 +9,10 @@
 	  
 	{% endfor %}
 	
-		{% if n==1 %}
-		<p class="comment-count"><a href="{{ post.url }}#comment">{{ n }} comments</a></p>
-		{% else %}
+		{% if n > 1 %}
 		<p class="comment-count"><a href="{{ post.url }}#comments">{{ n }} comments</a></p>
+		{% else %}
+		<p class="comment-count"><a href="{{ post.url }}#comments">{{ n }} comment</a></p>
 		{% endif %}
 
 {% endif %}
