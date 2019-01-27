@@ -3,7 +3,7 @@
 <ul class="comment-list">
 	{% assign comments = site.data.comments[page.slug] | sort  %}
 		
-	{% for comment in comments reversed %}
+	{% for comment in comments %}
 		{% assign commentData = comment[1] %}
 		
 		<li><p class="comment-message">{{ commentData.message | markdownify }}<p><p class="comment-author">&mdash; <strong>{{ commentData.name }}</strong>, on {{ commentData.date | date_to_string }}<p></li>
