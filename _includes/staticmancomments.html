@@ -6,7 +6,7 @@
 	{% for comment in comments reversed %}
 		{% assign commentData = comment[1] %}
 		
-		<li><p class="comment-message">{{ commentData.message | markdownify }}<p><p class="comment-author">&mdash; {{ commentData.name }}, on {{ commentData.date | date_to_string }}<p></li>
+		<li><p class="comment-message">{{ commentData.message | markdownify }}<p><p class="comment-author">&mdash; <strong>{{ commentData.name }}</strong>, on {{ commentData.date | date_to_string }}<p></li>
 		
 	{% endfor %}
 </ul>
