@@ -11,7 +11,7 @@ show_comments: no
 		<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 		<p class="datestamp">{{ post.date | date_to_string }}</p>
 		{{ post.content }}
-		{% include staticmancommentscount.html %}	
+		{% if site.staticman %}{% include staticmancommentscount.html %}{% endif %}
 	</article>
 
 {% endfor %}
