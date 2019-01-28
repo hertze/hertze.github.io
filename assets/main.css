@@ -90,14 +90,14 @@ nav {
 	letter-spacing: 0.05em;
 }
 
-article {
+article p {
 	-webkit-hyphens: auto;
 	  -ms-hyphens: auto;
 	  hyphens: auto;
 	  margin-bottom: 4.5em;
 }
 
-article p {
+article p, footer p {
 	margin: 1.5em 0;
 }
 
@@ -129,7 +129,8 @@ h1 {
 	text-align: center;
 	font-size: 2.2em;
 	line-height: 1.3636em;
-	max-width: 16em;
+	max-width: 14em;
+	hyphernation: ;
 	margin: 1.3636em auto 0.6818em auto;
 }
 
