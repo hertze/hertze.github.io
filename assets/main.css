@@ -141,6 +141,14 @@ h2 {
 	max-width: 16em;
 }
 
+.anchor {
+	position: relative;
+	margin-left: -0.15em;
+	bottom: 0.05em;
+	font-size: 0.8em;
+	color: #ccc;
+}
+
 strong {
 	font-variant-caps: small-caps;
 	font-feature-settings: "smcp";
