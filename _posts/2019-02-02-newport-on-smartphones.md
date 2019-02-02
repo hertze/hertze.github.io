@@ -1,5 +1,5 @@
 ---
-title: Cal Newport on why we'll look back at our smartphones like cigarettes
+title: Smartphones like cigarettes
 url: https://in www.gq.com/story/cal-newport-digital-minimalism
 layout: post
 ---
