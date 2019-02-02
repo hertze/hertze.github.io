@@ -143,9 +143,10 @@ h2 {
 
 .anchor {
 	position: relative;
-	margin-left: -0.15em;
+	width: 0em;
+	margin-left: -1em;
+	left: 1em;
 	bottom: 0.05em;
-	font-size: 0.8em;
 	color: #ccc;
 }
 
