@@ -143,9 +143,9 @@ h2 {
 
 .anchor {
 	position: relative;
-	width: 0em;
-	margin-left: -1em;
-	left: 1em;
+	width: 1em;
+	margin-left: -0.55em;
+	left: 0.8em;
 	bottom: 0.05em;
 	color: #ccc;
 }

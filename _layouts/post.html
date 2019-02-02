@@ -5,9 +5,9 @@ layout: default
 <main>
 	<article>
 		{% if post.link %}
-			<h1><a href="{{ page.link }}">{{ page.title | markdownify | strip_html }}</a></h1>
+			<h1><a href="{{ page.link }}">{{ page.title | markdownify | strip_html | strip }}</a></h1>
 		{% else %}
-		<h1><a href="{{ page.url }}">{{ page.title | markdownify | strip_html }}</a></h1>
+		<h1><a href="{{ page.url }}">{{ page.title | markdownify | strip_html | strip }}</a></h1>
 		{% endif %}
 		<p class="datestamp">{{ page.date | date_to_string }}</p>
 		{{ content }}
