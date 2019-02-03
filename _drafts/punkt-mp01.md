@@ -3,6 +3,8 @@ title: Punkt MP01: in pursuit of a smarter phone
 layout: post
 ---
 
+<img src="/assets/punkt-mp01.jpg">
+
 **As part of my attempt to moderate my use of social media and mindless surfing I researched current non-smart (or minimalist) phones on the market.** I found the [*MP01*](https://www.punkt.ch/en/products/mp01-mobile-phone/), introduced back in 2015 and made by Swiss company *Punkt*, to be an intriguing proposition.
 
 This phone only operates on 2G (GSM) networks, which is a dealbreaker in many countries where 2G never got built, or is being dismantled. However, 2G is still going strong in here in Sweden and will do so for the foreseeable future. I am told the Internet of Things mostly run on 2G here.
@@ -15,7 +17,7 @@ Also, the plastic hatch over the USB-C port only attaches to the body of the pho
 
 The gorilla glass covered screen is very hard to read in day light, even thought it supposedly has anti-reflective coating. The vibration engine is terrible. While the phone has Bluetooth capabilities, it is not clear to me if it works. I can say that while it will connect to an iPhone, you cannot really do anything useful with it, like transferring contacts. Maybe it connects to a car.
 
-Now for the good (or mostly good) news. I will be honest---it was above all the design of the phone that got my attention. It has a very *Dieter Rams* kind of feel about it. The size and wedged shape of it is just brilliant. It fits perfectly in your hand and just disappears in your pocket. The buttons are tight and gives you very nice feedback. I chose the brown variant, as a homage to my beloved HP 20S calculator. It looks smashing!
+Now for the good (or mostly good) news. I will be honest---it was above all the design of the phone that got my attention. It has a very *Dieter Rams* kind of feel about it. The size and wedged shape of it is just brilliant. It fits perfectly in your hand and just disappears in your pocket. The buttons are tight and gives you very nice feedback. I chose the brown variant, as a homage to my beloved [*HP 20S*](https://en.wikipedia.org/wiki/HP-20S) calculator. It looks smashing!
 
 The operating system (OS) on the phone (adapted from an OS by [MediaTek](https://www.mediatek.com)) is adequate in most instances, although it requires an bewildering number of clicks to send a SMS to a contact in your address book. Some parts of the OS are even genius, like how you can set an alarm by just start typing the time like you would a phone number, without first going through a menu. I wish you could do simple calculations the same way, but unfortunately this is not possible. The OS is entirely text based and seems really stable, which is lovely. The typography, not so much. I really recommend reading through the [operating manual](https://www.punkt.ch/repofiles/Manuali/MP01/5901-RL2912%20Punkt%20MP01%20User%20Manual_Landscape_Low%20Res_v7.0.pdf), in order not to miss things like the shortcut menu, how to silence a call or how to set a reminder to call someone back.
 
