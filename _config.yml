@@ -12,6 +12,8 @@ paginate: 3
 # Set this to true to include comments, otherwise to false.
 staticman: true
 
+future: false
+
 # Build settings
 markdown: kramdown
 theme: minima
