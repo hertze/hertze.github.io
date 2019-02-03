@@ -1,0 +1,30 @@
+---
+title: Punkt MP01: in pursuit of a smarter phone
+layout: post
+---
+
+**As part of my attempt to moderate my use of social media and mindless surfing I researched current non-smart (or minimalist) phones on the market.** I found the [*MP01*](https://www.punkt.ch/en/products/mp01-mobile-phone/), introduced back in 2015 and made by Swiss company *Punkt*, to be an intriguing proposition.
+
+This phone only operates on 2G (GSM) networks, which is a dealbreaker in many countries where 2G never got built, or is being dismantled. However, 2G is still going strong in here in Sweden and will do so for the foreseeable future. I am told the Internet of Things mostly run on 2G here.
+
+This is not a cheap phone by any means, but the price has dropped considerably with the introduction of the new [MP02](https://www.punkt.ch/en/products/mp02-4g-mobile-phone/), their brand new 4G model. As I understand it, the MP01 will be offered alongside the new model.
+
+Let us get the bad out of the way first. Punkt states that the MP01 is made of "premium" materials, but I must say this phone does *not* have a premium feel to it. Unlike an iPhone, that feels like a solid---tightly engineered---object in your hand, this phone feels like a plastic casing around a few electrical components. They do not quite rattle around inside, but it is not far from it. The light source for the backlit buttons is visible through the hatch that covers the USB-C port, as well as through the tiny hole in the SIM card tray, where you put the pin to eject it. This makes the entire phone seem hollow inside---insubstantial even. If you drop it, the plastic comes apart at the seams. I have involuntarily witnessed that.
+
+Also, the plastic hatch over the USB-C port only attaches to the body of the phone via two tiny rubber hinges, which just are waiting to break. This is the worst part of the entire execution of the phone and cheap solutions like this makes me worry for the longevity of it all. If you squeeze it in your hand it squeaks.
+
+The gorilla glass covered screen is very hard to read in day light, even thought it supposedly has anti-reflective coating. The vibration engine is terrible. While the phone has Bluetooth capabilities, it is not clear to me if it works. I can say that while it will connect to an iPhone, you cannot really do anything useful with it, like transferring contacts. Maybe it connects to a car.
+
+Now for the good (or mostly good) news. I will be honest---it was above all the design of the phone that got my attention. It has a very *Dieter Rams* kind of feel about it. The size and wedged shape of it is just brilliant. It fits perfectly in your hand and just disappears in your pocket. The buttons are tight and gives you very nice feedback. I chose the brown variant, as a homage to my beloved HP 20S calculator. It looks smashing!
+
+The operating system (OS) on the phone (adapted from an OS by [MediaTek](https://www.mediatek.com)) is adequate in most instances, although it requires an bewildering number of clicks to send a SMS to a contact in your address book. Some parts of the OS are even genius, like how you can set an alarm by just start typing the time like you would a phone number, without first going through a menu. I wish you could do simple calculations the same way, but unfortunately this is not possible. The OS is entirely text based and seems really stable, which is lovely. The typography, not so much. I really recommend reading through the [operating manual](https://www.punkt.ch/repofiles/Manuali/MP01/5901-RL2912%20Punkt%20MP01%20User%20Manual_Landscape_Low%20Res_v7.0.pdf), in order not to miss things like the shortcut menu, how to silence a call or how to set a reminder to call someone back.
+
+The ringtones are a mostly a collection of lovely sounds from nature (pigeons and cuckoos!) and make you happy every time someone calls or texts you.
+
+You compose texts using T9, which is really, really hard since I have not practiced since 2008 when I got the iPhone 3G. Text conversations are not threaded, which I imagine is a problem for some. I also believe the MP01 does not handle group conversations with any sense.
+
+Sound quality is fair, and possibly as good as it gets using a 2G network. It is nowhere near as good as the sound quality of my iPhone, though.
+
+The real star of this phone is the battery time, which promises 500 hours of standby and 290 minutes of talk-time. Glorious! All the little grievances mentioned above are forgiven! This standby time is 200 hours more than the new MP02---one of the advantages of using a 2G chip set. The importance of not having to charge your phone all the time simply cannot be overstated. This is freedom at its finest. This is what it was like back in 1999, when I got my first mobile phone (an Nokia 3210, which I still have in a box somewhere, with a swollen battery).
+
+The Punkt MP01 has become my weekend phone---my get-away phone.  The pigeon hooting when I turn it on immediately feels like a relief. That is no small thing. That is no small thing at all.
