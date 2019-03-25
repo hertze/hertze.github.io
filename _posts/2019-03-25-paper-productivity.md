@@ -3,6 +3,8 @@ title: Paper productivity
 layout: post
 ---
 
+<img src="/assets/paperproductivity.jpg">
+
 **I discovered David Allen's Getting Things Done (GTD) back in 2005**, when my wife and I had just become parents for the first time. We lived in a rented apartment i Malmö back then and I was busy doing my internship in psychiatry. If I remember correctly I discovered it through Merlin Mann's website [43 Folders](http://43folders.com) and it seemed to be the favourite computer nerd pastime of that era. In 2005 there were no computer applications available for GTD. The closest you got was by using a collection of AppleScripts together with Omnigroup's [OmniOutliner](https://www.omnigroup.com/omnioutliner) (that collection was *Kinkless GTD*, which heavily influenced the development of [Omnifocus](https://www.omnigroup.com/omnifocus/)). There were no smartphones either (I had a Motorola Razr, which could hold MP3 files!). GTD seemed awfully convoluted to me, but I decided to give it a try, and I bought myself a Filofax slimline Finsbury and marked up a few dividers with appropriate labels.
 
 This first setup worked well. I had problems with GTD of course, the same problems I think many people have, namely doing the actual work involved with collecting, clarifying, processing, reviewing and doing the tasks. For some reason I always got anxious when it was time to sit down and make decisions on all the stuff I had collected, which meant I did not do these reviews nearly as often as I should have. My brain likes to rebel against any structure imposed on it, even when it comes from itself. 
