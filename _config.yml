@@ -11,7 +11,7 @@ paginate: 5
 permalink: /:year/:month/:day/:title
 
 # Set this to true to include comments, otherwise to false.
-staticman: true
+staticman: false
 
 # No future posts
 future: false
