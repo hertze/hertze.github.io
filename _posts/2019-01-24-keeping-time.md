@@ -1,6 +1,7 @@
 ---
 title: Keeping time
 layout: post
+comments: true
 ---
 
 <img src="/assets/keeping-time.jpg">

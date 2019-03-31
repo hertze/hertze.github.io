@@ -2,6 +2,7 @@
 title: Smartphones like cigarettes
 link: https://www.gq.com/story/cal-newport-digital-minimalism
 layout: post
+comments: true
 ---
 
 **GQ Magazine published [an interview with Cal Newport](https://www.gq.com/story/cal-newport-digital-minimalism)**, leading up to his new book *Digital Minimalism*, due out any day now. As usual, Cal says a lot of thoughtful things, but this in particular gave me pause:
