@@ -90,6 +90,10 @@ nav {
 	letter-spacing: 0.05em;
 }
 
+article {
+	margin: 0 auto 6em auto;
+}
+
 article p, footer p {
 	-webkit-hyphens: auto;
 	  -ms-hyphens: auto;

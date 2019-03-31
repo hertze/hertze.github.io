@@ -1,6 +1,7 @@
 ---
 title: Paper productivity
 layout: post
+comments: true
 ---
 
 <img src="/assets/paperproductivity.jpg">
