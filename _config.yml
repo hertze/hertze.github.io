@@ -4,7 +4,8 @@ author: Joakim Hertze
 email: social@hertze.com
 description: An exploration of the good old-fashioned ways of making a life.
 baseurl: ""
-url: "http://oldways.se"
+url: "https://oldways.se"
+enforce_ssl: oldways.se
 twitter_username: hertze
 github_username:  hertze
 paginate: 5
@@ -18,7 +19,7 @@ future: false
 
 # Build settings
 markdown: kramdown
-theme:
+theme: 
 plugins:
   - jekyll-feed
   - jekyll-paginate
