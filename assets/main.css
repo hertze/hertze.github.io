@@ -51,7 +51,7 @@ table {
 
 body {
 	background-color: #fff;
-	font-size: 18px;
+	font-size: 19px;
 	line-height: 1.5;
 	font-family: cardea, serif;
 	font-weight: 400;
@@ -93,8 +93,8 @@ header a {
 
 nav {
 	text-align: center;
-	font-family: ff-tisa-sans-web-pro,sans-serif;
-	font-weight: bold;
+	font-family: prenton, sans-serif;
+	font-weight: 700;
 	font-style: normal;
 	text-transform: uppercase;
 	font-size: 0.8em;
@@ -108,9 +108,9 @@ article {
 
 article p, footer p {
 	-webkit-hyphens: auto;
-	  -ms-hyphens: auto;
-	  hyphens: auto;
-	  margin-bottom: 4.5em;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	margin-bottom: 4.5em;
 }
 
 article p {
@@ -119,7 +119,7 @@ article p {
 }
 
 footer {
-	font-family: ff-tisa-sans-web-pro,sans-serif;
+	font-family: prenton, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	margin: 3.75em auto;
@@ -136,7 +136,7 @@ footer p {
 
 .datestamp {
 	text-align: center;
-	font-family: ff-tisa-sans-web-pro,sans-serif;
+	font-family: prenton, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
@@ -144,7 +144,7 @@ footer p {
 
 h1 {
 	text-align: center;
-	font-size: 2.2em;
+	font-size: 2.6em;
 	letter-spacing: -0.01em;
 	line-height: 1.3636em;
 	max-width: 14em;
@@ -211,6 +211,10 @@ article p a, article li a {
 footer p a, article .comment-count a {
 	color: #808080;
 	box-shadow: none;
+}
+
+article h1 a:hover {
+	box-shadow: inset 0 -0.18em 0 0 #fff, inset 0 -0.25em 0 0 #E6E6E6;
 }
 
 header a:hover {
