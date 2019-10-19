@@ -19,7 +19,7 @@ future: false
 
 # Build settings
 markdown: kramdown
-theme: 
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
