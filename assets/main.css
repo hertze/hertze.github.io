@@ -133,9 +133,10 @@ footer p {
 h1 {
 	text-align: center;
 	font-size: 2.2em;
+	letter-spacing: -0.01em;
 	line-height: 1.3636em;
 	max-width: 14em;
-	hyphernation: ;
+	hyphens: none;
 	margin: 1.3636em auto 0.6818em auto;
 }
 
