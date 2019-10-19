@@ -62,7 +62,7 @@ body {
 }
 
 header {
-	margin: 0 1.6129em 6vw 1.6129em;
+	margin: 0 1.6129em 4.8387em 1.6129em;
 	font-style: italic;
 	font-size: 1.2em;
 	line-height:1.25em;
@@ -211,6 +211,11 @@ article p a, article li a {
 footer p a, article .comment-count a {
 	color: #808080;
 	box-shadow: none;
+}
+
+header a:hover {
+	box-shadow: none;
+	opacity: 0.5;
 }
 
 /* Comments */
