@@ -316,9 +316,18 @@ sup a, .reversefootnote {
 
 @media only screen and (max-width: 600px) {
 	body {
-		margin: 0;
+		margin: 0 1em 1em 1em;
 	}	
 	header {
 		margin: 0 auto 0 auto;
+	}
+	main {
+		margin: 0;
+	}
+	footer {
+		margin-bottom: 0;
+	}
+	footer p {
+		margin: 1.667em 0;
 	}
 }
