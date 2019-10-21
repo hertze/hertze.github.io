@@ -66,7 +66,6 @@ header {
 	font-style: italic;
 	font-size: 1.2em;
 	line-height:1.25em;
-	
 }
 
 header p {
@@ -313,4 +312,13 @@ sup {
 sup a, .reversefootnote {
 	box-shadow: none!important;
 	color: #9EE1CB;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		margin: 0;
+	}	
+	header {
+		margin: 0 auto 0 auto;
+	}
 }
