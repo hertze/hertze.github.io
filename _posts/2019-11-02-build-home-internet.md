@@ -1,5 +1,5 @@
 ---
-title: Build your own home on web
+title: Build your own home on the web
 layout: post
 comments: false
 ---
