@@ -10,3 +10,11 @@ body {
 	margin: 3em auto;
 	color: #000;
 }
+
+.kindleWidget {
+	display: none!important;
+}
+
+nav {
+	display: none;
+}
