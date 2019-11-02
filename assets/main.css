@@ -93,12 +93,11 @@ header a {
 nav {
 	text-align: center;
 	font-family: prenton, sans-serif;
-	font-weight: 700;
+	font-weight: 500;
 	font-style: normal;
-	text-transform: uppercase;
 	font-size: 0.8em;
 	line-height: 1.875em;
-	letter-spacing: 0.05em;
+	color: #ccc;
 }
 
 article {
@@ -201,6 +200,10 @@ a {
 a:hover {
 	color: #666666;
 	box-shadow: inset 0 -0.1em 0 0 #fff, inset 0 -0.25em 0 0 #E6E6E6;
+}
+
+nav a:hover {
+	box-shadow: none;
 }
 
 article p a, article li a {
@@ -316,6 +319,8 @@ sup a, .reversefootnote {
 
 .kindleWidget {
 	font-family: prenton, sans-serif;
+	position: relative;
+	top: -7.5em;
 }
 
 .kindleWidget img {
