@@ -8,6 +8,9 @@
 	main {
 		margin: 0;
 	}
+	article p, footer p, .kindleContainer, .datestamp, .wide {
+		left: 0;
+	}
 	footer {
 		margin-bottom: 0;
 	}

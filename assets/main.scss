@@ -9,7 +9,7 @@
 /* Main layout */
 
 body {
-	@include font($basefont, 400, normal, 19px, 1.5);
+	@include font($basefont, 400, normal, 20px, 1.5);
 	background-color: $background-color;
 	color: $textcolor;
 	margin: 1em;
@@ -31,8 +31,8 @@ header a {
 	background-position: center;
 	width: 100%;
 	height: 100%;
-	max-width: 18em;
-	max-height: 8em;
+	max-width: 20em;
+	max-height: 9em;
 	display: block;
 	margin: 0 auto;
 }
@@ -47,6 +47,10 @@ nav {
 
 article {
 	margin: 0 auto 6em auto;
+}
+
+article:last-child {
+	margin-bottom: 4em;
 }
 
 article p {
@@ -72,6 +76,7 @@ footer {
 	color: $lighttext;
 	position: relative;
 	top: -0.5em;
+	left: -0.2em; /* Offset the adjusted position of main text */
 }
 
 
@@ -132,6 +137,21 @@ blockquote {
 .tags {
 	@include font($metafont, 400, normal, 0.8em, 1.875em);
 	max-width: $basewidth / 0.8;
+}
+
+
+/* Offsetting paragraphs to seem more centered */
+
+article p, footer p, .kindleContainer {
+	position: relative;
+	left: 0.2em; 
+}
+
+/* Reversing some offsets */
+
+.datestamp, .wide {
+	position: relative;
+	left: -0.2em; 
 }
 
 /* Links */
@@ -225,12 +245,13 @@ sup a, .reversefootnote {
 .kindleContainer {
 	max-width: $basewidth;
 	margin: 0 auto;
+	height: 0;
 }
 
 .kindleWidget {
 	font-family: prenton, sans-serif;
 	position: relative;
-	top: -5.5em;
+	top: -8em;
 }
 
 .kindleWidget img {
