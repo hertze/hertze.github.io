@@ -1,0 +1,15 @@
+@mixin font($family, $weight, $style, $size, $lineheight) {
+	font-family: $family;
+	font-weight: $weight;
+	font-style: $style;
+	font-size: $size;
+	line-height: $lineheight;
+	font-display: swap;
+}
+
+@mixin hyphernation($property) {
+	hyphens: $property;
+	-webkit-hyphens: $property;
+	-ms-hyphens: $property;
+	-o-hyphens: $property;
+}

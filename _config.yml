@@ -8,7 +8,7 @@ url: "https://oldways.se"
 enforce_ssl: oldways.se
 twitter_username: hertze
 github_username:  hertze
-logo: /assets/logo.png
+logo: /assets/img/logo.png
 
 
 paginate: 5
@@ -19,6 +19,10 @@ staticman: false
 
 # No future posts
 future: false
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Build settings
 markdown: kramdown
