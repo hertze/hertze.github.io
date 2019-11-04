@@ -12,7 +12,7 @@ body {
 	@include font($basefont, 400, normal, 19px, 1.5);
 	background-color: $background-color;
 	color: $textcolor;
-	max-width: 40em;
+	max-width: $basewidth;
 	margin: 3em auto;
 }
 
@@ -68,7 +68,7 @@ article p {
 footer {
 	@include font($metafont, 400, normal, 0.9em, 1.875em);
 	margin: 3.75em auto;
-	max-width: 36em;
+	max-width: $footerwidth;
 }
 
 /* Typography */
@@ -85,10 +85,11 @@ footer p {
 
 
 h1 {
-	@include font($headingfont, 400, normal, 2.6em, 1.3636em);
+	@include font($headingfont, 700, normal, 2.6em, 1.3636em);
+	color: $headingcolor;
 	text-align: center;
-	letter-spacing: -0.01em;
-	max-width: 14em;
+	letter-spacing: -0.02em;
+	max-width: $headingwidth;
 	@include hyphernation(none);
 	margin: 1.3636em auto 0.6818em auto;
 }
@@ -138,6 +139,10 @@ blockquote {
 a {
 	text-decoration: none;
 	color: $linkcolor;
+}
+
+article h1 a {
+	color: $headingcolor;
 }
 
 a:hover {
