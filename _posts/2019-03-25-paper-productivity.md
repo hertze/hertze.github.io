@@ -1,7 +1,7 @@
 ---
 title: Paper productivity
 layout: post
-comments: true
+tags: [productivity, gtd, paper, planner]
 ---
 
 <p class="wide"><img src="/assets/img/paperproductivity.jpg"></p>

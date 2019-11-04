@@ -129,11 +129,22 @@ blockquote {
 	hanging-punctuation: first allow-end;
 }
 
+.tags {
+	@include font($metafont, 400, normal, 0.8em, 1.875em);
+	max-width: $basewidth / 0.8;
+}
+
 /* Links */
 
 a {
 	text-decoration: none;
 	color: $linkcolor;
+}
+
+.tags a {
+	color: $lighttext;
+	box-shadow: none;
+	margin-right: 0.5em;
 }
 
 a:hover {
@@ -182,7 +193,7 @@ header a:hover {
 }
 
 .entry-list h2 {
-	margin: 0.4375em 0;
+	margin: 0.875em 0 0.4375em 0;
 }
 
 /* Footnotes */
@@ -211,12 +222,15 @@ sup a, .reversefootnote {
 	color: #9EE1CB;
 }
 
+.kindleContainer {
+	max-width: $basewidth;
+	margin: 0 auto;
+}
+
 .kindleWidget {
 	font-family: prenton, sans-serif;
 	position: relative;
 	top: -5.5em;
-	left: 50%;
-	transform: translate(-50%);
 }
 
 .kindleWidget img {

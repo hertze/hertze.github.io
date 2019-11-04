@@ -1,7 +1,7 @@
 ---
 title: Build your own home on the web
 layout: post
-tags: [website, social media]
+tags: [code, website, social media]
 ---
 
 **In the age of social media, why should you bother with a website?** And in the age of website builders and content management systems, such as *Squarespace*, *Wix* or *Wordpress*, why should you bother with coding your site yourself?

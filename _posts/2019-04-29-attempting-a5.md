@@ -1,7 +1,7 @@
 ---
 title: Trying out a new kind of A5 diary layout
 layout: post
-comments: true
+tags: [paper, planner]
 ---
 
 <p class="wide"><img src="/assets/img/weekly-margins.jpg"></p>

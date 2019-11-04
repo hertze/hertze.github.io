@@ -2,7 +2,7 @@
 title: Punkt MP02 not ready for use?
 link: https://www.reddit.com/r/Punkt/comments/abvpwp/my_review_of_the_mp02/
 layout: post
-comments: true
+tags: [phone]
 ---
 
 Reddit user *u/obrien654j*:

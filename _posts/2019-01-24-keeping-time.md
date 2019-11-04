@@ -1,7 +1,7 @@
 ---
 title: Keeping time
 layout: post
-comments: true
+tags: [old technology, analog]
 ---
 
 <p class="wide"><img src="/assets/img/keeping-time.jpg"></p>
