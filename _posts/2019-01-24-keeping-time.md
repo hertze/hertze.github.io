@@ -4,7 +4,7 @@ layout: post
 comments: true
 ---
 
-<img src="/assets/img/keeping-time.jpg">
+<p class="wide"><img src="/assets/img/keeping-time.jpg"></p>
 
 **When I married eleven years ago I got myself a nice watch to mark the occasion.** It was a beautiful, self-winding mechanical *Longines* watch that cost ridiculously more than any watch I had previously owned (but still a pittance when compared to other mechanical timepieces). I wore it on my wrist every day for about eight years and never lost my infatuation with the pure engineering brilliance of it, even though it never quite kept an exact time.
 

@@ -21,9 +21,8 @@ header {
 	max-width: $basewidth;
 }
 
-main, nav {
-	margin: 0 auto;
-	max-width: $basewidth;
+main {
+	width: 100%;
 }
 
 header a {
@@ -40,26 +39,27 @@ header a {
 
 nav {
 	text-align: center;
-	@include font($metafont, 500, normal, 0.8em, 1.875em);
+	@include font($metafont, 500, normal, 0.9em, 1.875em);
 	color: $lighttext;
+	max-width: $footerwidth;
+	margin: 0 auto;
 }
 
 article {
 	margin: 0 auto 6em auto;
 }
 
-article p, footer p {
-	@include hyphernation(auto);
-	margin-bottom: 4.5em;
-}
-
 article p {
-	margin: 1.5em 0;
+	@include hyphernation(auto);
+	width: 100%;
+	max-width: $basewidth;
+	margin: 1.5em auto;
 	hanging-punctuation: first allow-end;
 }
 
 footer {
 	@include font($metafont, 400, normal, 0.9em, 1.875em);
+	@include hyphernation(auto);
 	margin: 3.75em auto;
 	max-width: $footerwidth;
 }
@@ -70,6 +70,8 @@ footer {
 	text-align: center;
 	@include font($metafont, 400, normal, 1em, 1.5em);
 	color: $lighttext;
+	position: relative;
+	top: -0.5em;
 }
 
 
@@ -115,7 +117,8 @@ img {
 }
 
 article .wide {
-	max-width: 48em!important;
+	max-width: 44em!important;
+	margin-bottom: 2em;
 }
 
 ul {
@@ -137,6 +140,10 @@ a {
 
 article h1 a {
 	color: $headingcolor;
+}
+
+nav a {
+	color: $altlink;
 }
 
 a:hover {
@@ -195,7 +202,9 @@ sup a, .reversefootnote {
 .kindleWidget {
 	font-family: prenton, sans-serif;
 	position: relative;
-	top: -7.5em;
+	top: -5.5em;
+	left: 50%;
+	transform: translate(-50%);
 }
 
 .kindleWidget img {
