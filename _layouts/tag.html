@@ -1,0 +1,18 @@
+---
+title: {{ page.title }}
+layout: default
+---
+<main>
+	<article class="page">
+		<p>Stuff tagged with &ldquo;{{page.tag}}&rdquo;</p>
+		    <ul class="entry-list">
+		      {% for post in site.posts %}
+		      {% if post.tags contains page.tag %}
+		      <li><h2><a class="post" href="{{ post.url }}">{{ post.title | markdownify | strip_html }}</a></h2>
+				  <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
+			  </li>
+			  {% endif %}
+		      {% endfor %}
+		    </ul>
+	</article>
+</main>
