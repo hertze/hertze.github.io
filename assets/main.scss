@@ -12,25 +12,18 @@ body {
 	@include font($basefont, 400, normal, 19px, 1.5);
 	background-color: $background-color;
 	color: $textcolor;
-	max-width: $basewidth;
-	margin: 3em auto;
+	margin: 1em;
 }
 
 header {
-	margin: 0 1.6129em 4.8387em 1.6129em;
-	font-style: italic;
-	font-size: 1.2em;
-	line-height:1.25em;
-}
-
-header p {
-	max-width: 12em;
-	margin: 0 auto;
-	text-align: center;
+	margin: 0 auto 4.8387em auto;
+	width: 100%;
+	max-width: $basewidth;
 }
 
 main, nav {
-	margin: 0 2em;
+	margin: 0 auto;
+	max-width: $basewidth;
 }
 
 header a {
@@ -72,10 +65,6 @@ footer {
 }
 
 /* Typography */
-
-footer p {
-	margin: 0 2.222em;
-}
 
 .datestamp {
 	text-align: center;
@@ -122,6 +111,11 @@ em {
 
 img {
 	width: 100%;
+	margin-bottom: 0.5em;
+}
+
+article .wide {
+	max-width: 48em!important;
 }
 
 ul {

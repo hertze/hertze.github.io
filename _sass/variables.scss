@@ -12,6 +12,7 @@ $link-hover: #666;
 $accent: #9EE1CB;
 $light-accent: #E6E6E6;
 
-$basewidth: 40em;
-$footerwidth: 40em/0.9;
-$headingwidth: 40em/2.6*0.67;
+$basewidth: 38em;
+$footerwidth: $basewidth / 0.9;
+$headingwidth: $basewidth/2.6*0.67;
+$wide: $basewidth + 4em;
