@@ -4,7 +4,7 @@ layout: post
 comments: true
 ---
 
-<a href="/assets/img/weekly-margins.jpg"><img src="/assets/img/weekly-margins.jpg"></a>
+<img src="/assets/img/weekly-margins.jpg">
 
 **It seems it is time for my annual tradition** of trying to transition from my personal size binder to my lovely [A5 Gillio Compagna](https://www.gillio.be/en/leather-items/planners-covers/organiser-a5-compagna-2) in that lovely older Epoca leather that patinas so much better than current offerings. I have failed this transition ever year so far, due to that A5 binder being so much larger and due to the fact that I have not really found a diary insert that suits my needs (or to be more accurate, wants).
 
