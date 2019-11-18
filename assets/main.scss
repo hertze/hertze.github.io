@@ -216,21 +216,25 @@ header a:hover {
 }
 
 .outbound {
-	@include font($headingfont, 700, italic, 1.6em, 1.3636em);
+	@include font($headingfont, 700, italic, 1.3em, 1.1538em);
 	color: $headingcolor;
-	text-align: left;
 	letter-spacing: -0.02em;
-	max-width: $basewidth / 1.6;
-	@include hyphernation(none);
-	margin: 1.2375em auto -0.6375em auto;
+	@include hyphernation(auto);
+	max-width: $basewidth / 1.3;
+	margin: 0 auto -1.1538em auto;
+	text-align: left;
+	position: relative;
+	left: 0.1em;
 }
 
 article .outbound .anchor {
+	@include font($headingfont, 700, italic, 1.8em, 1.3636em);
 	position: relative;
+	height: 0;
 	width: 1em;
-	margin-left: -0.55em;
-	left: 0.8em;
-	bottom: 0.05em;
+	
+	left: 0.2em;
+	top: 0.08em;
 	color: #ccc;
 	box-shadow: none;
 }
