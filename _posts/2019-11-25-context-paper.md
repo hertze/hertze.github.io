@@ -1,7 +1,7 @@
 ---
 title: Solving the problem of organizing next action lists on paper
 layout: post
-tags: [paper, planner]
+tags: [paper, planner, gtd]
 ---
 
 <p class="wide"><img src="/assets/img/tabs.jpg"></p>
