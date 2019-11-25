@@ -130,14 +130,6 @@ blockquote {
 	max-width: $basewidth / 0.8;
 }
 
-
-/* Offsetting paragraphs to seem more centered */
-
-.kindleContainer {
-	position: relative;
-	left: 0.2em; 
-}
-
 /* Links */
 
 a {
@@ -198,6 +190,10 @@ header a:hover {
 	max-width: $basewidth;
 	margin: 3em auto;
 	list-style-type: none;
+}
+
+.entry-list li {
+	margin-bottom: 3em;
 }
 
 .entry-list p {
