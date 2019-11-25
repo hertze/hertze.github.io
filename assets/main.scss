@@ -133,16 +133,9 @@ blockquote {
 
 /* Offsetting paragraphs to seem more centered */
 
-article p, footer p, .kindleContainer {
+.kindleContainer {
 	position: relative;
 	left: 0.2em; 
-}
-
-/* Reversing some offsets */
-
-.datestamp, .wide {
-	position: relative;
-	left: -0.2em; 
 }
 
 /* Links */
