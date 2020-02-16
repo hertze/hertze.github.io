@@ -11,6 +11,9 @@
 	article p, footer p, .kindleContainer, .datestamp, .wide {
 		left: 0;
 	}
+	article .outbound:first-child {
+		margin-top: 3em;
+	}
 	footer {
 		margin-bottom: 0;
 	}
