@@ -94,19 +94,15 @@ footer {
 /* Typography */
 
 .datestamp {
-	text-align: center;
 	@include font($metafont, 400, normal, 1em, 1.5em);
 	color: $lighttext;
 	position: relative;
-	top: -0.5em;
-	left: -0.2em; /* Offset the adjusted position of main text */
 }
 
 
 h1 {
 	@include font($headingfont, 700, normal, 2.6em, 1.3636em);
 	color: $headingcolor;
-	text-align: center;
 	letter-spacing: -0.02em;
 	max-width: $headingwidth;
 	@include hyphernation(none);

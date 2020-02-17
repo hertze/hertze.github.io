@@ -8,9 +8,9 @@ layout: default
 			<h1 class="outbound"><a href="{{ page.link }}">{{ page.title | markdownify | strip_html | rstrip }}</a><a href="{{ page.url }}" class="anchor">#</a></h1>
 		{% else %}
 		<h1>{{ page.title | markdownify | strip_html }}</h1>
-		<p class="datestamp">{{ page.date | date_to_string }}</p>
 		{% endif %}
 		{{ content }}
+		{% unless page.link %}<p class="datestamp">{{ page.date | date_to_string }}</p>{% endunless %}
 		<p class="tags">
 	    {% for tag in page.tags %}
 	    	<a class="post" href="/tag/{{ tag }}">#{{tag}}</a>{% unless forloop.last %} {% endunless %}
