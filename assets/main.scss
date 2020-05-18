@@ -165,18 +165,10 @@ a {
 	color: $lighttext;
 	box-shadow: none;
 	margin-right: 0.5em;
+	background-image: none;
 }
 
-a:hover {
-	color: #666666;
-	box-shadow: inset 0 -0.1em 0 0 $background-color, inset 0 -0.25em 0 0 $light-accent;
-}
-
-article h1 a, article h2 a {
-	color: $headingcolor;
-}
-
-article .outbound a{
+article h1 a, article h2 a, article .outbound a {
 	color: $headingcolor;
 }
 
@@ -184,16 +176,18 @@ nav a {
 	color: $altlink;
 }
 
-nav a:hover {
-	box-shadow: none;
-}
-
-article p a, article .outbound a {
-	box-shadow: inset 0 -0.1em 0 0 $background-color, inset 0 -0.25em 0 0 $accent;
+article p a {
+	background-image: linear-gradient(to bottom, $accent 60%, transparent 40%);
+	background-position: 0 bottom;
+	background-repeat: repeat-x;
+	background-size: 2px 6px;
 }
 
 article .outbound a {
-	box-shadow: inset 0 -0.18em 0 0 $background-color, inset 0 -0.25em 0 0 $accent;
+	background-image: linear-gradient(to bottom, $accent 60%, transparent 40%);
+	background-position: 0 bottom;
+	background-repeat: repeat-x;
+	background-size: 2px 6px;
 }
 
 footer p a {
@@ -201,8 +195,23 @@ footer p a {
 	box-shadow: none;
 }
 
+a:hover {
+	color: #666666;
+	background-image: linear-gradient(to bottom, $light-accent 60%, transparent 40%);
+	background-position: 0 bottom;
+	background-repeat: repeat-x;
+	background-size: 2px 6px;
+}
+
+nav a:hover {
+	box-shadow: none;
+}
+
 article h1 a:hover {
-	box-shadow: inset 0 -0.18em 0 0 $background-color, inset 0 -0.25em 0 0 #E6E6E6;
+	background-image: linear-gradient(to bottom, $light-accent 60%, transparent 40%);
+	background-position: 0 1.15em;
+	background-repeat: repeat-x;
+	background-size: 2px 6px;
 }
 
 .entry-list {
@@ -244,7 +253,7 @@ article .outbound .anchor {
 	left: 0.2em;
 	top: 0.08em;
 	color: #ccc;
-	box-shadow: none;
+	background-image: none;
 }
 
 article .outbound .anchor:hover {
