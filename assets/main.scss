@@ -13,6 +13,8 @@ body {
 	background-color: $background-color;
 	color: $textcolor;
 	margin: 1em;
+	display: flex;
+	flex-direction: column;
 }
 
 header {
@@ -24,6 +26,7 @@ header {
 
 main {
 	width: 100%;
+	flex: 1;
 }
 
 header a {
@@ -31,7 +34,7 @@ header a {
 	display: inline-block;
 	position: fixed;
 	top: 1rem;
-	right: 2rem;
+	left: 2rem;
 	width: 4rem;
 	height: 4rem;
 	background-repeat: no-repeat;
@@ -67,6 +70,7 @@ nav {
 	color: $lighttext;
 	max-width: $footerwidth;
 	margin: 0 auto;
+	flex-shrink: 0;
 }
 
 article {
@@ -88,7 +92,7 @@ article p {
 footer {
 	@include font($metafont, 400, normal, 0.9em, 1.875em);
 	@include hyphernation(auto);
-	margin: 3.75em auto;
+	margin: 3.75em auto 1.75em auto;
 	max-width: $footerwidth;
 }
 
