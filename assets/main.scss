@@ -12,13 +12,13 @@ body {
 	@include font($basefont, 400, normal, 20px, 1.5);
 	background-color: $background-color;
 	color: $textcolor;
-	margin: 1em;
+	margin: 1rem;
 	display: flex;
 	flex-direction: column;
 }
 
 header {
-	margin: 2rem auto 4.8387em auto;
+	margin: 2rem auto 4.8387rem auto;
 	width: 100%;
 	max-width: $basewidth;
 	text-align: center;
@@ -29,44 +29,9 @@ main {
 	flex: 1;
 }
 
-header a {
-	background-image: $logo-green;
-	display: inline-block;
-	position: fixed;
-	top: 1rem;
-	left: 2rem;
-	width: 4rem;
-	height: 4rem;
-	background-repeat: no-repeat;
-	background-position: left center;
-}
-
-header a:after {
-    background-image: $logo-grey;
-	background-repeat: no-repeat;
-	background-position: left center;
-    content: "";
-    opacity: 0;
-    width: inherit;
-    height: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: opacity 200ms ease;
-}
-
-header a:hover {
-	box-shadow: none;
-}
-
-header a:hover:after {
-    opacity: 1;
-	transition: opacity 200ms ease;
-}
-
 nav {
 	text-align: center;
-	@include font($metafont, 500, normal, 0.9em, 1.875em);
+	@include font($metafont, 500, normal, 0.9rem, 1.875rem);
 	color: $lighttext;
 	max-width: $footerwidth;
 	margin: 0 auto;
@@ -74,48 +39,48 @@ nav {
 }
 
 article {
-	margin: 0 auto 4em auto;
+	margin: 0 auto 4rem auto;
 }
 
 article:last-child {
-	margin-bottom: 4em;
+	margin-bottom: 4rem;
 }
 
 article p {
 	@include hyphernation(auto);
 	width: 100%;
 	max-width: $basewidth;
-	margin: 1.5em auto;
+	margin: 1.5rem auto;
 	hanging-punctuation: first allow-end;
 }
 
 footer {
-	@include font($metafont, 400, normal, 0.9em, 1.875em);
+	@include font($metafont, 400, normal, 0.9rem, 1.875rem);
 	@include hyphernation(auto);
-	margin: 3.75em auto 1.75em auto;
+	margin: 3.75rem auto 1.75rem auto;
 	max-width: $footerwidth;
 }
 
 /* Typography */
 
 .datestamp {
-	@include font($metafont, 400, normal, 1em, 1.5em);
+	@include font($metafont, 400, normal, 1rem, 1.5rem);
 	color: $lighttext;
 	position: relative;
 }
 
 
 h1 {
-	@include font($headingfont, 700, normal, 2.6em, 1.3636em);
+	@include font($headingfont, 700, normal, 3.4rem, 1.2);
 	color: $headingcolor;
-	letter-spacing: -0.02em;
+	letter-spacing: -0.05rem;
 	max-width: $headingwidth;
 	@include hyphernation(none);
-	margin: 1.3636em auto 0.6818em auto;
+	margin: 1.5rem auto 2.5rem auto;
 }
 
 h2 {
-	@include font($headingfont, 700, normal, 1.6em, 1.1333em);
+	@include font($headingfont, 700, normal, 1.6rem, 1.3);
 }
 
 strong {
@@ -135,8 +100,8 @@ img {
 }
 
 article .wide {
-	max-width: 44em!important;
-	margin-bottom: 2em;
+	max-width: 58rem!important;
+	margin-bottom: 2rem;
 }
 
 ul {
@@ -150,8 +115,8 @@ blockquote {
 }
 
 .tags {
-	@include font($metafont, 400, normal, 0.8em, 1.875em);
-	max-width: $basewidth / 0.8;
+	@include font($metafont, 400, normal, 0.8rem, 1.875rem);
+	max-width: $basewidth;
 }
 
 /* Links */
@@ -164,7 +129,7 @@ a {
 .tags a {
 	color: $lighttext;
 	box-shadow: none;
-	margin-right: 0.5em;
+	margin-right: 0.5rem;
 	background-image: none;
 }
 
@@ -195,7 +160,7 @@ footer p a {
 	box-shadow: none;
 }
 
-a:hover {
+main a:hover, nav a:hover, footer a:hover {
 	color: #666666;
 	background-image: linear-gradient(to bottom, $light-accent 60%, transparent 40%);
 	background-position: 0 bottom;
@@ -203,13 +168,20 @@ a:hover {
 	background-size: 2px 6px;
 }
 
-nav a:hover {
-	box-shadow: none;
+nav a:hover, footer a:hover {
+	background-image: none;
 }
 
 article h1 a:hover {
 	background-image: linear-gradient(to bottom, $light-accent 60%, transparent 40%);
-	background-position: 0 1.15em;
+	background-position: 0 3.7rem;
+	background-repeat: repeat-x;
+	background-size: 2px 0.15em;
+}
+
+article h1.outbound a:hover {
+	background-image: linear-gradient(to bottom, $light-accent 60%, transparent 40%);
+	background-position: 0 bottom;
 	background-repeat: repeat-x;
 	background-size: 2px 6px;
 }
@@ -229,29 +201,28 @@ article h1 a:hover {
 }
 
 .entry-list h2 {
-	margin: 0.875em 0 0.4375em 0;
+	margin: 0.875em 0 0.4375rem 0;
 }
 
 .outbound {
-	@include font($headingfont, 700, italic, 1.3em, 1.1538em);
+	@include font($headingfont, 700, italic, 1.3rem, 1.1538rem);
 	color: $headingcolor;
-	letter-spacing: -0.02em;
+	letter-spacing: -0.02rem;
 	@include hyphernation(auto);
-	max-width: $basewidth / 1.3;
-	margin: 0 auto -1.1538em auto;
+	max-width: $basewidth;
+	margin: 0 auto -1.1538rem auto;
 	text-align: left;
 	position: relative;
-	left: 0.1em;
+	left: 0rem;
 }
 
 article .outbound .anchor {
-	@include font($headingfont, 700, italic, 1.8em, 1.3636em);
+	@include font($headingfont, 700, italic, 1.8rem, 1.3636rem);
 	position: relative;
 	height: 0;
-	width: 1em;
-	
-	left: 0.2em;
-	top: 0.08em;
+	width: 1rem;
+	left: 0.2rem;
+	top: 0.08rem;
 	color: #ccc;
 	background-image: none;
 }
@@ -260,11 +231,43 @@ article .outbound .anchor:hover {
 	color: $link-hover;
 }
 
+.logo-link {
+	display: block;
+	position: fixed;
+	z-index: 1;
+	top: 1rem;
+	left: 2rem;
+	width: 4rem;
+	height: 4rem;
+	background-image: $logo-green;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.logo-link:after {
+    background-image: $logo-grey;
+	background-repeat: no-repeat;
+	background-position: left center;
+    content: "";
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+	transition: opacity 200ms ease;
+}
+
+.logo-link:hover:after {
+    opacity: 1;
+	transition: opacity 200ms ease;
+}
+
 /* Footnotes */
 
 .footnotes {
-	font-size: 0.9em;
-	line-height: 1.667em;
+	font-size: 0.9rem;
+	line-height: 1.667rem;
 	border-top: 1px solid #999;
 	width: 33%;
 }
@@ -276,9 +279,9 @@ article .outbound .anchor:hover {
 
 
 sup {
-	font-size: 0.9em;
+	font-size: 0.9rem;
 	position: relative;
-	bottom: 0.4em;
+	bottom: 0.4rem;
 }
 
 sup a, .reversefootnote {
