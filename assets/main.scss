@@ -54,6 +54,13 @@ article p {
 	hanging-punctuation: first allow-end;
 }
 
+article ol, article ul {
+	width: 100%;
+	max-width: $basewidth;
+	margin: 1.5rem auto;
+	hanging-punctuation: first allow-end;
+}
+
 footer {
 	@include font($metafont, 400, normal, 0.9rem, 1.875rem);
 	@include hyphernation(auto);
@@ -109,6 +116,15 @@ ul {
   list-style-position: outside;
 }
 
+ol {
+  list-style-type: lower-roman;
+  list-style-position: inside;
+}
+
+article li {
+	margin-bottom: 1.5rem;
+}
+
 blockquote {
 	margin-left: 3em;
 	hanging-punctuation: first allow-end;
@@ -141,7 +157,7 @@ nav a {
 	color: $altlink;
 }
 
-article p a {
+article p a, article li a {
 	background-image: linear-gradient(to bottom, $accent 60%, transparent 40%);
 	background-position: 0 bottom;
 	background-repeat: repeat-x;
