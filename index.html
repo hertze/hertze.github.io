@@ -14,7 +14,7 @@ show_comments: no
 		<h1><a href="{{ post.url }}">{{ post.title | markdownify | strip_html }}</a></h1>
 		{% endif %}
 		{{ post.content }}
-		{% unless post.link %}<p class="datestamp">{{ post.date | date_to_string }}</p>{% endunless %}
+		{% unless post.link %}<p class="datestamp">{{ post.date | date_to_string }} // <a href="{{ post.url }}#tags" class="meta-link">tags and comments &rsaquo;</a></p>{% endunless %}
 	</article>
 
 {% endfor %}
@@ -24,7 +24,7 @@ show_comments: no
 	
 {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}">
-      &#8592; Newer
+      &lsaquo; Newer
     </a>
 {% endif %}
 
@@ -33,7 +33,7 @@ show_comments: no
 {% endif %}
 
 {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}">Older &#8594;</a>
+    <a href="{{ paginator.next_page_path }}">Older &rsaquo;</a>
   
 {% endif %}
 

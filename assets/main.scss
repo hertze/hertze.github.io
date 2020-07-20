@@ -130,7 +130,7 @@ blockquote {
 	hanging-punctuation: first allow-end;
 }
 
-.tags {
+#tags {
 	@include font($metafont, 400, normal, 1rem, 1.5);
 	max-width: $basewidth;
 }
@@ -142,7 +142,7 @@ a {
 	color: $linkcolor;
 }
 
-.tags a {
+#tags a, .meta-link {
 	color: $lighttext;
 	box-shadow: none;
 	margin-right: 0.5rem;
@@ -176,7 +176,7 @@ footer p a {
 	box-shadow: none;
 }
 
-main a:hover, nav a:hover, footer a:hover {
+main a:hover, nav a:hover, footer a:hover, #tags a:hover {
 	color: #666666;
 	background-image: linear-gradient(to bottom, $light-accent 60%, transparent 40%);
 	background-position: 0 bottom;
