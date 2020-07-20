@@ -31,7 +31,7 @@ main {
 
 nav {
 	text-align: center;
-	@include font($metafont, 500, normal, 0.9rem, 1.875rem);
+	@include font($metafont, 500, normal, 1rem, 1.5);
 	color: $lighttext;
 	max-width: $footerwidth;
 	margin: 0 auto;
@@ -71,7 +71,7 @@ footer {
 /* Typography */
 
 .datestamp {
-	@include font($metafont, 400, normal, 1rem, 1.5rem);
+	@include font($metafont, 400, normal, 1.2rem, 1.5rem);
 	color: $lighttext;
 	position: relative;
 }
@@ -131,7 +131,7 @@ blockquote {
 }
 
 .tags {
-	@include font($metafont, 400, normal, 0.8rem, 1.875rem);
+	@include font($metafont, 400, normal, 1rem, 1.5);
 	max-width: $basewidth;
 }
 

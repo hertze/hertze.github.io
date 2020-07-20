@@ -1,7 +1,7 @@
 ---
 title: Declutter
 layout: post
-tags: [digital minimalism]
+tags: [digitalminimalism]
 ---
 
 For the month of July I intend to do what [Cal Newport](https://www.calnewport.com) in his book [Digital Minimalism](https://www.calnewport.com/books/digital-minimalism/) calls a *digital declutter*. For 31 days I'll abstain from the use of Facebook, Instagram and the like. I just don't like how I behave around these engineered endless sources of dopamin hits. These are my rules:
