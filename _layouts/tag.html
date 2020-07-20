@@ -4,7 +4,7 @@ layout: default
 ---
 <main>
 	<article class="page">
-		<p>Stuff tagged with &ldquo;{{page.tag}}&rdquo;</p>
+		<h2 class="meta">#{{page.tag}}</h2>
 		    <ul class="entry-list">
 		      {% for post in site.posts %}
 		      {% if post.tags contains page.tag %}
