@@ -17,6 +17,23 @@ layout: default
 	    {% endfor %}
 		</p>
 	</article>
+	<div id="comment">
+		<form name="comment" method="POST" data-netlify="true" action="/sent">
+			<input type="hidden" id="article" name="article" value="{{ page.title }}">
+			<p>
+	   	  	  <input type="text" name="name" placeholder="Your name" required/>  
+			</p>
+	  	  <p>
+	    	  <input type="email" name="email" placeholder="Your e-mail address" required />
+		  </p>
+		  <p>
+			  <textarea name="comment" placeholder="Your comment" required></textarea>
+		  </p>
+		  <p>
+			  <button type="submit" class="paperplane">To Joakim</button>
+		  </p>
+		</form>
+	</div>
 </main>
 <nav>
 	

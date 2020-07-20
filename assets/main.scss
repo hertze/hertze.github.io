@@ -305,20 +305,70 @@ sup a, .reversefootnote {
 	color: #9EE1CB;
 }
 
-.kindleContainer {
+/* Forms */
+
+#comment {
+	margin: 0 auto 3rem auto;
+	width: 100%;
 	max-width: $basewidth;
-	margin: 0 auto;
-	height: 0;
 }
 
-.kindleWidget {
-	font-family: prenton, sans-serif;
-	position: relative;
-	top: -8em;
+#comment p {
+	margin-bottom: 0.5rem;
 }
 
-.kindleWidget img {
-	width: inherit;
+.comment-instruction {
+	@include font($metafont, 400, normal, 1.2rem, 1.5rem);
+	margin: 1.5rem 0!important;
+	color: #ccc;
 }
+
+#comment input {
+	font-family: $metafont;
+	width: calc(100% - 1.5rem);
+	max-width: 25rem;
+	font-size: 1em;
+	padding: 0.75rem;
+	background-color: $formcolor;
+	border: none;
+	border-radius: 0.2rem;
+}
+
+#comment textarea {
+	font-family: $metafont;
+	width: calc(100% - 1.5rem);
+	height: 8em;
+	font-size: 1em;
+	padding: 0.75rem;
+	background-color: $formcolor;
+	border: none;
+	border-radius: 0.2rem;
+}
+
+#comment button {
+	font-family: $metafont;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1em;
+	border: none;
+	color: #fff;
+	background-color: $buttoncolor;
+	padding: 1rem 1.6rem 1rem 2.7rem;
+	border-radius: 0.2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	background-image: $paperplane;
+	background-repeat: no-repeat;
+	background-position: 0.8rem 55%;
+	background-size: 1.6rem;
+}
+
+#comment button:hover {
+	color: #fff!important;
+	background-color: $textcolor;
+	cursor: pointer;
+}
+
+
 
 @import 'mediaqueries';
