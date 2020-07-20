@@ -12,7 +12,7 @@ logo: /assets/img/logo.png
 
 
 paginate: 5
-permalink: /:year/:month/:day/:title
+permalink: /:year/:month/:title
 
 # Set this to true to include comments, otherwise to false.
 staticman: false
