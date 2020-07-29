@@ -6,7 +6,7 @@ tags: [gillio, planner]
 
 <p class="wide"><img src="/assets/img/compagna-xl-1.jpg"></p>
 
-Ironically, one week after me posting a rant on how it was impossible to buy Gillio (after having failed to order a medium Compagna XL in undyed) they released a slew of medium XLs. Their servers were unresponsive for ten minutes this time, but they hadn't sold out when I finally was allowed in and I ordered a [medium Compagna XL I brown Epoca](https://www.gillio.be/en/organiser---compagna-medium-xl-772---epoca-d-brown-epoca-calfleather-first-quality). Had gold been available I would have gone for that, but I'm glad it wasn't because I have too many planners in gold Epoca already and I'm really loving the delicious chocolate brown.
+Ironically, one week after me posting a rant on how it was impossible to buy Gillio (after having failed to order a medium Compagna XL in undyed) they released a slew of medium XLs. Their servers were unresponsive for ten minutes this time, but they hadn't sold out when I finally was allowed in and I ordered a [medium Compagna XL in brown Epoca](https://www.gillio.be/en/organiser---compagna-medium-xl-772---epoca-d-brown-epoca-calfleather-first-quality). Had gold been available I would have gone for that, but I'm glad it wasn't because I have too many planners in gold Epoca already and I'm really loving the delicious chocolate brown.
 
 The layout is the same as in regular mediums and to me it's the epitome of good planner design. It just has everything you need and then some. For instance, I don't really use the pockets on the verso side secretarial pocket or the credit card slots on the recto side, but they discreetly waits in the wings for the day I need them.
 
